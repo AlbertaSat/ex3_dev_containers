@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  gnd:
+    build:
+      context: mocks
+      dockerfile: gnd.Dockerfile
+  com:
+    build:
+      context: mocks
+      dockerfile: com.Dockerfile
+    stop_grace_period: 0.25s
+  fsw:
+    build:
+      context: mocks
+      dockerfile: fsw.Dockerfile
+    stop_grace_period: 0.25s
+  sub:
+    build:
+      context: mocks
+      dockerfile: sub.Dockerfile
+    stop_grace_period: 0.25s

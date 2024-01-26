@@ -2,11 +2,10 @@ import socket
 import sys
 from typing import Callable
 
-# TODO: Replace with host names
 ADDRESSES: dict[str, tuple[str, int]] = {
-    "com": ('0.0.0.0', 5000),
-    "fsw": ('0.0.0.0', 5001),
-    "sub": ('0.0.0.0', 5002),
+    "com": ('com', 5000),
+    "fsw": ('fsw', 5001),
+    "sub": ('sub', 5002),
 }
 
 

@@ -14,4 +14,11 @@ def send_message(msg: str):
 
 if __name__ == "__main__":
     while True:
-        send_message(input("> "))
+        try:
+            s = input("> ")
+        except EOFError:
+            break
+        try:
+            send_message(s)
+        except Exception as e:
+            print(e, file=sys.stderr)
