@@ -2,6 +2,7 @@
 
 3 separate containers:
 
-- OBC (FSW)
-- Simulated Subsystems
 - Ground software
+- Coms
+- OBC (FSW)
+- Simulated Ecosystems

@@ -1,0 +1,11 @@
+procs:
+  gnd:
+    cmd: [./gnd.py]
+  sub:
+    cmd: [./sub.py]
+  fsw:
+    cmd: [./fsw.py]
+  com:
+    cmd: [./com.py]
+proc_list_width: 12
+hide_keymap_window: true
