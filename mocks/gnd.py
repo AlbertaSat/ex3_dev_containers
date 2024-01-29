@@ -13,6 +13,10 @@ def send_message(msg: str):
 
 
 if __name__ == "__main__":
+    print(
+        "EX3 Ground Station CLI v0.0.1\n"
+        "Type anything to send to the Communications system."
+    )
     while True:
         try:
             s = input("> ")
